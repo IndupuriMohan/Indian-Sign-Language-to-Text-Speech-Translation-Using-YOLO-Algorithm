@@ -1,4 +1,4 @@
-Indian Sign Language to Text/Speech Translation using YOLOv5
+# Indian Sign Language to Text/Speech Translation using YOLOv5
 Project Overview
 This project develops a real-time Indian Sign Language (ISL) to Text/Speech Translation System using the YOLOv5 object detection algorithm. The system aims to bridge the communication gap between deaf individuals using ISL and hearing individuals by translating ISL gestures into text or speech. It leverages YOLOv5 for accurate and efficient hand gesture detection, combined with computer vision and natural language processing (NLP) techniques to enable seamless, real-time communication.
 The system is trained on a self-developed dataset containing digits (0-9), alphabets (A-Z), and 50 predefined ISL words. YOLOv5's robust object detection capabilities allow for high-precision recognition of hand gestures, achieving an accuracy of 92.5% in real-time applications. The system supports two-way communication, multilingual audio input, and is designed for deployment in public spaces, educational settings, and mobile applications.
@@ -23,7 +23,7 @@ Dataset: Custom ISL dataset (available in the repository or can be recreated as 
 Steps
 
 Clone the Repository:
-git clone https://github.com/your-username/isl-translation-system.git
+git clone https://github.com/IndupuriMohan/Indian-Sign-Language-to-Text-Speech-Translation-Using-YOLO-Algorithm.git
 cd isl-translation-system
 
 
@@ -52,7 +52,7 @@ Place the weights in the yolov5/weights/ directory.
 
 
 Run the Application:
-python main.py
+pythonrun2.py
 
 
 
